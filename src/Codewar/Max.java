@@ -19,6 +19,10 @@ public class Max {
                 max = sum;
 
         }
+        if(max<0){
+       return 0;
+     }
         return max;
+    
     }
 }
